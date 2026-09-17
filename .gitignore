@@ -1,2 +1,21 @@
-node_modules/
+# Ignore maison-kadi project files
+maison-kadi/node_modules/
+maison-kadi/backend/node_modules/
+maison-kadi/frontend/node_modules/
 
+# Environment variables
+maison-kadi/.env
+maison-kadi/backend/.env
+maison-kadi/frontend/.env
+
+# Angular build
+maison-kadi/frontend/dist/
+maison-kadi/frontend/.angular/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
